@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "fa0f32f825ab9219235e",
+  "publicPath": "/static/",
+  "outputPath": "C:\\Users\\Nino\\app\\awsm-project\\build\\static",
+  "assetsByChunkName": {
+    "awsm-project": "awsm-project.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "awsm-project.module.js",
+      "size": 7113797,
+      "chunks": [
+        "awsm-project"
+      ],
+      "chunkNames": [
+        "awsm-project"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 116849,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "awsm-project": {
+      "chunks": [
+        "awsm-project"
+      ],
+      "assets": [
+        "awsm-project.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "awsm-project": {
+      "chunks": [
+        "awsm-project"
+      ],
+      "assets": [
+        "awsm-project.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "awsm-project",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1997845,
+      "names": [
+        "awsm-project"
+      ],
+      "files": [
+        "awsm-project.module.js"
+      ],
+      "hash": "a3a93dc4a766b3d7b968",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 87504,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "34388d4f02c37c04cb69",
+      "siblings": [],
+      "parents": [
+        "awsm-project"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
